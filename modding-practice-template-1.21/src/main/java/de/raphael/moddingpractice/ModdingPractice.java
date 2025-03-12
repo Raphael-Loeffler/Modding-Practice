@@ -1,5 +1,7 @@
 package de.raphael.moddingpractice;
 
+import de.raphael.moddingpractice.block.ModBlocks;
+import de.raphael.moddingpractice.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +13,7 @@ public class ModdingPractice implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
