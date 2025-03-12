@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "modding-practice",
+	"version": "${version}",
+	"name": "Modding-Practice",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modding-practice/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.raphael.ModdingPractice"
+		],
+		"client": [
+			"de.raphael.ModdingPracticeClient"
+		]
+	},
+	"mixins": [
+		"modding-practice.mixins.json",
+		{
+			"config": "modding-practice.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
