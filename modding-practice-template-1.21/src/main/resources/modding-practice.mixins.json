@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "de.raphael.mixin",
+	"package": "de.raphael.moddingpractice.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

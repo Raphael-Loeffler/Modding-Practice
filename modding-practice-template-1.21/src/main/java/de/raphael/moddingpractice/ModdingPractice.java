@@ -1,4 +1,4 @@
-package de.raphael;
+package de.raphael.moddingpractice;
 
 import net.fabricmc.api.ModInitializer;
 

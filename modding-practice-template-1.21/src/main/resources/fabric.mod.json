@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "modding-practice",
 	"version": "${version}",
-	"name": "Modding-Practice",
+	"name": "Modding Practice",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -16,18 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"de.raphael.ModdingPractice"
+			"de.raphael.moddingpractice.ModdingPractice"
 		],
-		"client": [
-			"de.raphael.ModdingPracticeClient"
+		"fabric-datagen": [
+			"de.raphael.moddingpractice.ModdingPracticeDataGenerator"
 		]
 	},
 	"mixins": [
-		"modding-practice.mixins.json",
-		{
-			"config": "modding-practice.client.mixins.json",
-			"environment": "client"
-		}
+		"modding-practice.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
