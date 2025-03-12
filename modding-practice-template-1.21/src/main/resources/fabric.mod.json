@@ -3,13 +3,13 @@
 	"id": "modding-practice",
 	"version": "${version}",
 	"name": "Modding Practice",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is an Mod for practice purposes",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Raphael-Loeffler/Modding-Practice.git"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/modding-practice/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"de.raphael.moddingpractice.ModdingPracticeDataGenerator"
+		],
+		"client": [
+			"de.raphael.moddingpractice.ModdingPracticeClient"
 		]
 	},
 	"mixins": [
