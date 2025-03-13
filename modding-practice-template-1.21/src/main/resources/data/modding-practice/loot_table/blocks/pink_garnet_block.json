@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:pink_garnet_block"
+          "name": "modding-practice:pink_garnet_block"
         }
       ],
       "rolls": 1.0

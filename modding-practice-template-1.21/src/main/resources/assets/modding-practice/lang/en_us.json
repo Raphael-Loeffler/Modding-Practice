@@ -2,9 +2,12 @@
   "block.modding-practice.pink_garnet_block": "Block of Pink Garnet",
   "block.modding-practice.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
   "block.modding-practice.raw_pink_garnet_block": "Block of Raw Pink Garnet",
-  "bock.modding-practice.pink_garnet_ore": "Pink Garnet Ore",
+  "block.modding-practice.pink_garnet_ore": "Pink Garnet Ore",
+
   "item.modding-practice.pink_garnet": "Pink Garnet",
   "item.modding-practice.raw_pink_garnet": "Raw Pink Garnet",
+  "item.modding-practice.chisel": "Chisel",
+
   "itemgroup.modding-practice.pink_garnet_blocks": "Pink Garnet Blocks",
   "itemgroup.modding-practice.pink_garnet_items": "Pink Garnet Items"
 }
