@@ -1,6 +1,7 @@
 package de.raphael.moddingpractice;
 
 import de.raphael.moddingpractice.block.ModBlocks;
+import de.raphael.moddingpractice.item.ModItemGroups;
 import de.raphael.moddingpractice.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class ModdingPractice implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }
