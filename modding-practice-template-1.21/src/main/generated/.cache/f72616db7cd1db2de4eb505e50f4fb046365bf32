@@ -1,0 +1,3 @@
+// 1.21	2025-03-14T16:42:48.857030021	Modding Practice/Tags for minecraft:block
+0a655199588b35e105664b348b851508edb9145c data/minecraft/tags/block/mineable/pickaxe.json
+0527ed39f16b5e32a3cd698fdf09e0a668e01273 data/minecraft/tags/block/needs_iron_tool.json
