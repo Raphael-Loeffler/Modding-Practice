@@ -1,6 +1,15 @@
-// 1.21	2025-03-14T16:42:48.857121251	Modding Practice/Block Loot Tables
+// 1.21	2025-03-16T12:50:59.139910799	Modding Practice/Block Loot Tables
 3cb8661a1b2734b1d8ded0769195fb762bc6e7c5 data/modding-practice/loot_table/blocks/raw_pink_garnet_block.json
-8564f02916b9b3aefea6ea4a102eaf4e9f662b3c data/modding-practice/loot_table/blocks/magic_block.json
-b7ea1d5dbf2ba477dc8e36bd9a532668c88bcd22 data/modding-practice/loot_table/blocks/pink_garnet_ore.json
+d458a6c537a733044035b0e46aefa881a0808018 data/modding-practice/loot_table/blocks/pink_garnet_fence_gate.json
 618eba45da6cc6c091e766dd0937b09bcc41acc9 data/modding-practice/loot_table/blocks/pink_garnet_deepslate_ore.json
+b7ea1d5dbf2ba477dc8e36bd9a532668c88bcd22 data/modding-practice/loot_table/blocks/pink_garnet_ore.json
 926439069ea875f8c6b83ab4a76579c41ee35bc2 data/modding-practice/loot_table/blocks/pink_garnet_block.json
+15961f3c3b2bda3f9af8979a3cc6f460b7e1119b data/modding-practice/loot_table/blocks/pink_garnet_wall.json
+7aa8a3906051ed7deabc190cb2949cf47cc39653 data/modding-practice/loot_table/blocks/pink_garnet_pressure_plate.json
+8564f02916b9b3aefea6ea4a102eaf4e9f662b3c data/modding-practice/loot_table/blocks/magic_block.json
+8ce1d853e43a552c45443715039bf62c0ab5c41a data/modding-practice/loot_table/blocks/pink_garnet_slab.json
+6edf7a4beeb65b8798b3cc3073abdafee8093945 data/modding-practice/loot_table/blocks/pink_garnet_door.json
+e70375bc862261c875de1a293993f684917bbbaa data/modding-practice/loot_table/blocks/pink_garnet_button.json
+75db0ae49ec8566e126d6ec7a5756c8bd8b06a9f data/modding-practice/loot_table/blocks/pink_garnet_trapdoor.json
+c1e9858437403e5cdeb286be6e59313bfc73b241 data/modding-practice/loot_table/blocks/pink_garnet_fence.json
+61ff678a81f558248e0e6c0418057fe5b67b05f2 data/modding-practice/loot_table/blocks/pink_garnet_stairs.json

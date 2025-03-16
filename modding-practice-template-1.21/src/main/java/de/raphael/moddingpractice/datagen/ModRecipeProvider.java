@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -50,5 +51,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.MAGIC_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.MAGIC_BLOCK))
                 .offerTo(exporter, Identifier.of(ModdingPractice.MOD_ID, "raw_pink_garnet_from_magic_block"));
+
+        createDoorRecipe(ModBlocks.PINK_GARNET_DOOR, Ingredient.ofItems(ModItems.PINK_GARNET))
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModBlocks.PINK_GARNET_DOOR))
+                .offerTo(exporter);
+
     }
 }

@@ -1,3 +1,7 @@
-// 1.21	2025-03-14T16:42:48.857030021	Modding Practice/Tags for minecraft:block
+// 1.21	2025-03-16T12:50:59.139759927	Modding Practice/Tags for minecraft:block
+65bcd484667b44b6d0ef6032486e98db353dc239 data/minecraft/tags/block/fences.json
+7b43de6c96603e6802f55bff9a8c3da8928f90cb data/minecraft/tags/block/walls.json
 0a655199588b35e105664b348b851508edb9145c data/minecraft/tags/block/mineable/pickaxe.json
-0527ed39f16b5e32a3cd698fdf09e0a668e01273 data/minecraft/tags/block/needs_iron_tool.json
+f4f5c788be02b8df206d2018123bcd788c222586 data/minecraft/tags/block/fence_gates.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/needs_iron_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/modding-practice/tags/block/needs_pink_garnet_tool.json

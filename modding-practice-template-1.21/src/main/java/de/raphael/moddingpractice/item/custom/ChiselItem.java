@@ -1,6 +1,7 @@
 package de.raphael.moddingpractice.item.custom;
 
 import de.raphael.moddingpractice.block.ModBlocks;
+import de.raphael.moddingpractice.component.ModDataComponentTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
@@ -16,6 +17,7 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
+import org.apache.commons.lang3.ObjectUtils;
 
 import java.util.List;
 import java.util.Map;
@@ -46,6 +48,8 @@ public class ChiselItem extends Item {
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
+
+                context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
             }
         }
 
@@ -58,6 +62,10 @@ public class ChiselItem extends Item {
             tooltip.add(Text.translatable("tooltip.modding-practice.chisel.shift_down"));
         } else {
             tooltip.add(Text.translatable("tooltip.modding-practice.chisel"));
+        }
+
+        if(stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltip.add(Text.literal("Last Block Changed at " + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);
