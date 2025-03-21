@@ -1,7 +1,0 @@
-// 1.21	2025-03-16T12:50:59.138963888	Modding Practice/Tags for minecraft:item
-b30910d9c1ef3b94c86ecacf284db092452df6be data/minecraft/tags/item/pickaxes.json
-794a8d625269189a9e425a6457d2c238db5c03e4 data/minecraft/tags/item/shovels.json
-493273a66c04d4233f66194b7dd81830227629e8 data/minecraft/tags/item/hoes.json
-f89a490f86454682bcebe089cf068c9c1af6c39a data/minecraft/tags/item/axes.json
-88cbe8dfc9deb003a4ba39a5fe4ab83d96948ae3 data/modding-practice/tags/item/transformable_items.json
-c9fbe5e4039012cefe84bfd89df9fb30b6d6e165 data/minecraft/tags/item/swords.json

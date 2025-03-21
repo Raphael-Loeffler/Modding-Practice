@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Modding-Practice.iml" filepath="$PROJECT_DIR$/.idea/Modding-Practice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modding-practice-template-1.21.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modding-practice-template-1.21.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modding-practice-template-1.21.test.iml" filepath="$PROJECT_DIR$/.idea/modules/modding-practice-template-1.21.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Modding-Practice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Modding-Practice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Modding-Practice.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Modding-Practice.test.iml" />
     </modules>
   </component>
 </project>

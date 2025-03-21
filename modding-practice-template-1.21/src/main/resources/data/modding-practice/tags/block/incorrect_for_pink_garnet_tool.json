@@ -1,8 +1,0 @@
-{
-  "values": [
-    "#minecraft:incorrect_for_iron_tool"
-  ],
-  "remove": [
-    "#modding-practice:needs_pink_garnet_tool"
-  ]
-}
