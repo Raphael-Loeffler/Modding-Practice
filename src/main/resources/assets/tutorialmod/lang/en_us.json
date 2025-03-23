@@ -21,6 +21,16 @@
   "item.tutorialmod.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
   "item.tutorialmod.kaupen_armor_trim_smithing_template": "Kaupen Smithing Template",
 
+  "item.tutorialmod.kaupen_bow": "Kaupen Bow",
+
+  "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
+
 
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -44,6 +54,8 @@
   "block.tutorialmod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
 
   "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp",
+
+  "effect.tutorialmod.slimey": "Slimey",
 
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
